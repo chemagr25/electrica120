@@ -1,11 +1,21 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import SliderCarousel from '../components/sliderCarousel.astro';
+import { getCollection } from 'astro:content';
+const posts = await getCollection('posts');
 ---
 
-<Layout>
-	<Welcome />
+<Layout title='Eléctrica120'>
+	<div>
+		{posts.map((post: { data: any; slug: any; }) => {
+			const {data,slug} =  post
+			const {title} =  data
+			return (
+			<h1> {title}</h1>
+			<a class="underline" href={`/post/${slug}`}> {slug}</a>
+			)
+		
+		})}
+		<SliderCarousel></SliderCarousel>
+	</div>
 </Layout>

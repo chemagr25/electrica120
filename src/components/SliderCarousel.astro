@@ -1,0 +1,114 @@
+---
+const url = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtP3ZnPqa24OzFd86-_440mF3RoRGRVHhKrzg-OWy7i5g6aj3V3-YoM0itTiMSZNEY6pj-JlJ6-IglgcUygPR0vLN9alsrFCMlP_kuaNw4Nq73BDd-u1x3_pyfv209o9TsZLqh4gU-4neXzXa0vY_xWLtSjI311xUFyC-iIWjvmwKPdPIpc02QJcHQt4D6/s1280/WhatsApp%20Image%202024-11-11%20at%201.33.41%20PM%20(1).jpeg"
+
+---
+
+<!-- Slider main container -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    <div class="swiper-slide">
+      <img src={url} alt="">
+    </div>
+    
+    
+  
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+<script>
+  import Swiper from "swiper/bundle";
+  import "swiper/css/bundle";
+  import "swiper/css/navigation";
+  var swiper = new Swiper(".mySwiper", {
+     spaceBetween: 15,
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+      clickable: true,
+    },
+  });
+</script>
+
+<style>
+
+
+  .swiper {
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+</style>

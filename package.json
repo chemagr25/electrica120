@@ -1,5 +1,5 @@
 {
-  "name": "blog-energy-120",
+  "name": "blog120",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.7.10"
+    "@tailwindcss/vite": "^4.1.6",
+    "astro": "^5.7.13",
+    "swiper": "^11.2.6",
+    "tailwindcss": "^4.1.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16"
   }
 }
