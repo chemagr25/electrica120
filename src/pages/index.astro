@@ -7,8 +7,8 @@ const posts = await getCollection('posts');
 
 <Layout title='Eléctrica120'>
 	<div>
-		{posts.map((post: { data: any; slug: any; }) => {
-			const {data,slug} =  post
+		{posts.map((post) => {
+			const {data, slug} =  post
 			const {title} =  data
 			return (
 			<h1> {title}</h1>
