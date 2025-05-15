@@ -17,12 +17,57 @@ const { title, author, pubDate, descripton, imgCover = "" } = data;
 const {Content} = await render(post)
 ---
 
-<Layout title={`${title}- Eléctrica120`}>
-    <h1>{author}</h1>
-    <h1>{pubDate}</h1>
-    <h1>{descripton}</h1>
-    <div class="prose">
-        <Content/>
-
+<Layout title={`${title} - Eléctrica120`}>
+    <div class="main">
+        <h1 class="font-bold text-4xl title-article">{title}</h1>
+        <div class="extra-info">
+            <div class="author">
+                <img src={`/logo.png`} alt="">
+                <span class="font-medium">{author}</span>
+            </div>
+            <span>·</span>
+            <span>{pubDate}</span>
+        </div>
+        <div class="prose prose-stone ">
+            <Content/>
+        </div>
     </div>
 </Layout>
+
+<style>
+    .main {
+        background-color: #FFFF;
+        max-width: 700px;
+        
+    }
+
+    .extra-info {
+        margin-top: 32px;
+        padding-bottom: 24px;
+        margin-bottom: 24px ;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-bottom: 1px solid #cecece;
+    }
+
+    .author {
+       
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+   
+    .author img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+
+    .prose {
+        color: black;
+        font-size: 20px;
+        font-family: "PT Serif", serif;
+    }
+</style>

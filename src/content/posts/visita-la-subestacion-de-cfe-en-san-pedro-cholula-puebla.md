@@ -1,5 +1,5 @@
 ---
-title: "Visita a la subestación de CFE en San Pedro Cholula- Puebla."
+title: "Visita a la subestación de CFE en San Pedro Cholula - Puebla."
 author: "Eléctrica120°"
 pubDate: "6 de Noviembre"
 descripton: " Visita realizada a la subestación de CFE en San Pedro Cholula- Puebla. "

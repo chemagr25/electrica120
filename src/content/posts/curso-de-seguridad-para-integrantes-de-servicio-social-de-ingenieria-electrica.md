@@ -1,12 +1,14 @@
 ---
-title: "CURSO DE SEGURIDAD PARA INTEGRANTES DE SERVICIO SOCIAL DE INGENIERIA ELECTRICA"
+title: "Curso de seguridad para integrantes de servicio social de ingeniería eléctrica"
 author: "Eléctrica120°"
 pubDate: "9 de Marzo"
 descripton: "El objetivo de este curso fue principalmente dar información y métodos para poder saber que realizar en una situación donde dependa la vida de alguien mas, o como coloquialmente se le conoce dar primeros auxilios."
 imgCover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtP3ZnPqa24OzFd86-_440mF3RoRGRVHhKrzg-OWy7i5g6aj3V3-YoM0itTiMSZNEY6pj-JlJ6-IglgcUygPR0vLN9alsrFCMlP_kuaNw4Nq73BDd-u1x3_pyfv209o9TsZLqh4gU-4neXzXa0vY_xWLtSjI311xUFyC-iIWjvmwKPdPIpc02QJcHQt4D6/s1280/WhatsApp%20Image%202024-11-11%20at%201.33.41%20PM%20(1).jpeg"
 ---
-# hola
+
 El objetivo de este curso fue principalmente dar información y métodos para poder saber que realizar en una situación donde dependa la vida de alguien mas, o como coloquialmente se le conoce "dar primeros auxilios".
+![Descripción de la imagen](/ejemplo.jpg)
+
 
 Este curso, fue impartido por el paramédico Jesus N, el cual desempeña sus labores correspondientes en el Hospital Rafael Moreno Valle en la Ciudad de Puebla. Consideramos de suma importancia que el expositor haya sido alguien con experiencia en la rama paramédica debido a que nosotros consideramos este tipo de cursos de forma esencial que todo mundo debería de considerar tomar, ya que brinda todas las herramientas necesarias para actuar o accionar de manera efectiva en situaciones de emergencia. 
 
