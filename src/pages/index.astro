@@ -34,8 +34,8 @@ const posts = await getCollection("posts");
 					const { title, author, pubDate, descripton, imgCover, tag } =
 						data;
 					return (
-						<div class="relative flex flex-col md:flex-row w-full my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
-							<div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+						<div class="relative flex flex-col md:flex-row w-full my-6 bg-white shadow-sm border border-slate-200 rounded-lg ">
+							<div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden ">
 								<img
 									src={imgCover}
 									alt="card-image"
@@ -87,10 +87,7 @@ const posts = await getCollection("posts");
 	.prose {
 		color: black;
 	}
-	img {
-		width: 200px;
-		height: 200px;
-	}
+	
 	article {
 		max-width: 800px;
 	}
