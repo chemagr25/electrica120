@@ -17,7 +17,7 @@ const { title, author, pubDate, descripton, imgCover = "" } = data;
 const {Content} = await render(post)
 ---
 
-<Layout title={`${title} - Eléctrica120`}>
+<Layout title={`${title} - Eléctrica120`} description={descripton}>
     <div class="main p-3 lg:p-6 md:p-0">
         <h1 class="font-bold text-3xl lg:text-4xl    title-article">{title}</h1>
         <div class="extra-info">
