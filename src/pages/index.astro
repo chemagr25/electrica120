@@ -1,21 +1,97 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import SliderCarousel from '../components/SliderCarousel.astro';
-import { getCollection } from 'astro:content';
-const posts = await getCollection('posts');
+import Layout from "../layouts/Layout.astro";
+import SliderCarousel from "../components/SliderCarousel.astro";
+import { getCollection } from "astro:content";
+const posts = await getCollection("posts");
+
+// <SliderCarousel></SliderCarousel>
 ---
 
-<Layout title='Eléctrica120'>
+<Layout title="Eléctrica120">
 	<div>
-		{posts.map((post) => {
-			const {data, slug} =  post
-			const {title} =  data
-			return (
-			<h1> {title}</h1>
-			<a class="underline" href={`/post/${slug}`}> {slug}</a>
-			)
-		
-		})}
-		<SliderCarousel></SliderCarousel>
+		<!-- <h1 class="text-2xl font-semibold mb-2">Quiénes somos?</h1>
+		<div class="about-us flex">
+			<p class="prose gap-5">
+				"Eléctrica 120°: Es un punto de encuentro para los estudiantes
+				de Ingeniería Eléctrica que buscan no solo aprender, sino
+				también conectar con la filosofía y el corazón de la carrera. Un
+				espacio diseñado para resolver dudas, compartir experiencias y
+				motivar a cada estudiante a continuar su camino con
+				determinación. <br />
+				" Recoge rosas mientras puedas, en latín lo expresamos así: <span
+					class="font-semibold">carpe diem</span
+				>, aprovecha el día mientras aún puedan venir flores. <br /> ¿Por
+				qué lo dijo así el escritor? Porque somos comida para los gusanos.
+				Por favor, piensen: todos los presentes aquí vamos a dejar de respirar
+				algún día, nos enfriaremos y moriremos.
+			</p>
+			<img class="ml-6" src="/logo.png" alt="" />
+		</div> -->
+		<div class="articles p-4">
+			{
+				posts.map((post) => {
+					const { data, slug } = post;
+					const { title, author, pubDate, descripton, imgCover, tag } =
+						data;
+					return (
+						<div class="relative flex flex-col md:flex-row w-full my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+							<div class="relative p-2.5 md:w-2/5 shrink-0 overflow-hidden">
+								<img
+									src={imgCover}
+									alt="card-image"
+									class="h-full w-full rounded-md md:rounded-lg object-cover"
+								/>
+							</div>
+							<div class="p-6">
+								<div class="mb-4 rounded-full bg-teal-600 py-0.5 px-2.5 border border-transparent text-xs text-white transition-all shadow-sm w-20 text-center">
+									{tag}
+								</div>
+								<h4 class="mb-2 text-slate-800 text-xl font-semibold">
+									{title}
+								</h4>
+								<p class="mb-8 text-slate-600 leading-normal font-light">
+									{descripton}
+								</p>
+								<div>
+									<a
+										href={`/post/${slug}`}
+										class="text-slate-800 font-semibold text-sm hover:underline flex items-center"
+									>
+										Leer Más
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="ml-2 h-4 w-4"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M14 5l7 7m0 0l-7 7m7-7H3"
+											/>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					);
+				})
+			}
+		</div>
 	</div>
 </Layout>
+
+<style>
+	.prose {
+		color: black;
+	}
+	img {
+		width: 200px;
+		height: 200px;
+	}
+	article {
+		max-width: 800px;
+	}
+</style>

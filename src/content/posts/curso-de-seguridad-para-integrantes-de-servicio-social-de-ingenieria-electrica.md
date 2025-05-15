@@ -1,8 +1,9 @@
 ---
 title: "Curso de seguridad para integrantes de servicio social de ingeniería eléctrica"
 author: "Eléctrica120°"
+tag: "Curso"
 pubDate: "9 de Marzo"
-descripton: "El objetivo de este curso fue principalmente dar información y métodos para poder saber que realizar en una situación donde dependa la vida de alguien mas, o como coloquialmente se le conoce dar primeros auxilios."
+descripton: El objetivo de este curso fue principalmente dar información y métodos para poder saber que realizar en una situación donde dependa la vida de alguien mas, o como coloquialmente se le conoce "dar primeros auxilios."
 imgCover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtP3ZnPqa24OzFd86-_440mF3RoRGRVHhKrzg-OWy7i5g6aj3V3-YoM0itTiMSZNEY6pj-JlJ6-IglgcUygPR0vLN9alsrFCMlP_kuaNw4Nq73BDd-u1x3_pyfv209o9TsZLqh4gU-4neXzXa0vY_xWLtSjI311xUFyC-iIWjvmwKPdPIpc02QJcHQt4D6/s1280/WhatsApp%20Image%202024-11-11%20at%201.33.41%20PM%20(1).jpeg"
 ---
 
