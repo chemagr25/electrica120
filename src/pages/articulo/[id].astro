@@ -28,13 +28,18 @@ const { Content } = await render(post)
             <span>•</span>
             <span>{pubDate}</span>
         </div>
-        <div class="prose text-xl md:text-2xl  bg-white">
+        <div class="prose text-xl   bg-white">
             <Content/>
         </div>
     </div>
 </Layout>
 
 <style>
+
+    img {
+		border: 2px solid red;
+	}
+
     .main {
         max-width: 700px;
         
@@ -61,7 +66,7 @@ const { Content } = await render(post)
         align-items: center;
         gap: 8px;
     }
-
+    	
    
     .author img {
         width: 32px;

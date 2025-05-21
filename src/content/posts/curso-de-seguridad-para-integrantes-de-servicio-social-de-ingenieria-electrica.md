@@ -4,11 +4,12 @@ author: "Eléctrica120°"
 tag: "Curso"
 pubDate: "9 de Marzo"
 descripton: El objetivo de este curso fue principalmente dar información y métodos para poder saber que realizar en una situación donde dependa la vida de alguien mas.
-imgCover: "/ejemplo.jpg"
+imgCover: /curso-primeros-auxilios.jpg
 ---
 
+![Descripción de la imagen](/curso-primeros-auxilios.jpg)
+
 El objetivo de este curso fue principalmente dar información y métodos para poder saber que realizar en una situación donde dependa la vida de alguien mas, o como coloquialmente se le conoce "dar primeros auxilios".
-![Descripción de la imagen](/ejemplo.jpg)
 
 
 Este curso, fue impartido por el paramédico Jesus N, el cual desempeña sus labores correspondientes en el Hospital Rafael Moreno Valle en la Ciudad de Puebla. Consideramos de suma importancia que el expositor haya sido alguien con experiencia en la rama paramédica debido a que nosotros consideramos este tipo de cursos de forma esencial que todo mundo debería de considerar tomar, ya que brinda todas las herramientas necesarias para actuar o accionar de manera efectiva en situaciones de emergencia. 

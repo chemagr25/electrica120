@@ -24,6 +24,7 @@ onMounted(() => {
       el: '.swiper-pagination',
       dynamicBullets: true,
       clickable: true,
+      
     },
   })
 })
@@ -50,5 +51,11 @@ onMounted(() => {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.active {
+  background: rgb(211, 132, 132) !important;
+  border: 1px solid red;
+  
 }
 </style>

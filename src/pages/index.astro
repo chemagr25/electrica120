@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import SliderCarousel from "../components/SliderCarousel.astro";
 import Carousel from "../components/Carousel.vue";
 import CardComposition from "../components/CardComposition.astro";
 import { getCollection } from "astro:content";
@@ -13,20 +12,22 @@ const posts = await getCollection("posts");
 	title="Eléctrica120"
 	description="Eléctrica 120°: Es un punto de encuentro para los estudiantes de Ingeniería Eléctrica que buscan no solo aprender, sino también conectar con la filosofía y el corazón de la carrera."
 >
-	<div class="pl-4 pr-4 content">
-		<div class="about-us w-full">
-			<h1 class="text-3xl font-bold">Eléctrica 120°</h1>
-			<p class="prose text-lg mb-6 mt-4">
-				Somos un espacio para estudiantes de Ingeniería
-				Eléctrica que buscan aprender, compartir experiencias y encontrar
-				motivación. Aquí conectamos con la esencia de la carrera y recordamos
-				vivir el presente: <b class="italic">carpe diem</b>, porque
-				algún día todos dejaremos de respirar.
-			</p>
+	<div class="pl-4 pr-4  content">
+		<div class="about-us w-full lg:flex md:justify-between lg:ml-[40px]">
+			<div>
+				<h1 class="text-3xl font-bold">Eléctrica 120°</h1>
+				<p class="prose text-lg mb-6 mt-4">
+					Somos un espacio para estudiantes de Ingeniería
+					Eléctrica que buscan aprender, compartir experiencias y encontrar
+					motivación. Aquí conectamos con la esencia de la carrera y recordamos
+					vivir el presente: <b class="italic">carpe diem</b>, porque
+					algún día todos dejaremos de respirar.
+				</p>
+			</div>
 			<Carousel client:load />
 		</div>
-		<h1 class="mt-8 text-2xl font-bold">Artículos</h1>
-		<div class="articles gap-8 mt-6 flex flex-col">
+		<h1 class="mt-24 text-2xl font-bold">Artículos</h1>
+		<div class="articles lg-[40px] gap-8 mt-6 flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3">
 			{
 				posts.map((post) => {
 					const { data, slug } = post;
@@ -61,5 +62,10 @@ const posts = await getCollection("posts");
 
 	.content {
 		padding: 0px 24px;
+		max-width: 1400px;
 	}
+
+	
+
+
 </style>
