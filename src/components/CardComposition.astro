@@ -13,15 +13,17 @@ const { title, imgCover, description, author, pubDate, slug } = Astro.props;
 
 <article class="card-composition flex flex-col w-full">
     <div>
-        <div
-            class="img-cover w-full h-[250px]"
-            style={`background-image: url(${imgCover});`}
-        >
-        </div>
+        <a href={`/articulo/${slug}`}>
+            <div
+                class="img-cover w-full h-[250px]"
+                style={`background-image: url(${imgCover});`}
+            >
+            </div>
+        </a>
         <p class="mt-4 author text-md font-semibold">
             {`${author} • ${pubDate}`}
         </p>
-        <a href={`/articulo/${slug}`} class="text-xl font-bold "><p class="my-3">{title}</p></a>
+        <a transition:name={`title-${slug}`} href={`/articulo/${slug}`} class="text-xl font-bold "><p class="my-3">{title}</p></a>
         <p class="prose text-lg w-full pr-6">{description}</p>
     </div>
 </article>

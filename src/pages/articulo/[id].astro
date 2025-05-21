@@ -20,12 +20,12 @@ const { Content } = await render(post)
 <Layout title={`${title} - Eléctrica120`} description={descripton}>
     <div class="main p-4">
         <h1 transition:name={`title-${slug}`} class="font-bold text-3xl md:text-4xl   title-article">{title}</h1>
-        <div class="extra-info">
+        <div class="extra-info font-semibold">
             <div class="author">
                 <!-- <img src={`/logo.png`} alt=""> -->
-                <span class="font-bold">{author}</span>
+                <span >{author}</span>
             </div>
-            <span>·</span>
+            <span>•</span>
             <span>{pubDate}</span>
         </div>
         <div class="prose text-xl md:text-2xl  bg-white">
@@ -45,12 +45,13 @@ const { Content } = await render(post)
     }
 
     .extra-info {
-        margin-top: 32px;
-        padding-bottom: 24px;
+        color: #6941c6;
+        margin-top: 24px;
+        padding-bottom: 16px;
         margin-bottom: 24px ;
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         border-bottom: 1px solid #cecece;
     }
 

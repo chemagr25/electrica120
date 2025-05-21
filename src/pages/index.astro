@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import SliderCarousel from "../components/SliderCarousel.astro";
+import Carousel from "../components/Carousel.vue";
 import CardComposition from "../components/CardComposition.astro";
 import { getCollection } from "astro:content";
 const posts = await getCollection("posts");
@@ -22,7 +23,7 @@ const posts = await getCollection("posts");
 				vivir el presente: <b class="italic">carpe diem</b>, porque
 				algún día todos dejaremos de respirar.
 			</p>
-			<SliderCarousel />
+			<Carousel client:load />
 		</div>
 		<h1 class="mt-8 text-2xl font-bold">Artículos</h1>
 		<div class="articles gap-8 mt-6 flex flex-col">
