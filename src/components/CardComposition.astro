@@ -1,0 +1,41 @@
+---
+interface Props {
+    title: string;
+    imgCover: string;
+    description: string;
+    author: string;
+    pubDate: string;
+    slug: string;
+}
+
+const { title, imgCover, description, author, pubDate, slug } = Astro.props;
+---
+
+<article class="card-composition flex flex-col w-full">
+    <div>
+        <div
+            class="img-cover w-full h-[250px]"
+            style={`background-image: url(${imgCover});`}
+        >
+        </div>
+        <p class="mt-4 author text-md font-semibold">
+            {`${author} • ${pubDate}`}
+        </p>
+        <a href={`/articulo/${slug}`} class="text-xl font-bold "><p class="my-3">{title}</p></a>
+        <p class="prose text-lg w-full pr-6">{description}</p>
+    </div>
+</article>
+<style>
+    .img-cover {
+        background-size: cover; /* Ajusta la imagen al tamaño del div */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
+    .author {
+        color: #6941c6;
+    }
+
+    .prose {
+        color: #667085;
+    }
+</style>

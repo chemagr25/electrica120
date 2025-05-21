@@ -2,30 +2,35 @@
 
 ---
 
-<nav class="nav w-full">
-    <div class="content-nav">
-        <div class="logo text-2xl font-bold">Eléctrica 120°</div>
+<nav class="nav  w-full">
+    <div class="content-nav flex justify-center items-center">
+        <div class=" pl-5 pr-4 flex  w-full justify-between items-center">
+          <a href="/">
+              <div class="logo text-2xl font-bold">Eléctrica 120°</div>
+          </a> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path fill="#000000" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/></svg>
+        </div>
         <div class="search relative self-end"></div>
         <div class="social"></div>
     </div>
 </nav>
 <style>
     .nav {
-        padding: 12px;
+        font-family: "Inter", sans-serif;
         display: flex;
+        height: 60px;
         justify-content: center;
         margin-bottom: 2rem;
-        /* border-bottom: 3px solid rgb(100, 100, 100); */
-    }
-
-    .logo {
-        
+        padding-top: 20px;
     }
 
     .content-nav {
-        padding: 0 16px;
+        max-width: 1400px;
         width: 100%;
         display: flex;
         justify-content: space-between;
     }
+
+ 
+ 
 </style>
