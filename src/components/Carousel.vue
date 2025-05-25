@@ -33,8 +33,8 @@ onMounted(() => {
 <style scoped>
 .mySwiper {
   width: 400px;
-  height: 200px;
-  border-radius: 4px;
+  height: 220px;
+  /* border-radius: 4px; */
 }
 
 .swiper-slide {
