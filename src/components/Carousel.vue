@@ -1,5 +1,5 @@
 <template>
-  <div class="swiper mySwiper">
+  <div class="swiper mySwiper w-[400px] h-[210px]  lg:w-[700px] lg:h-[340px]">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="/gen20.jpeg" alt="Imagen 1" />
@@ -32,8 +32,7 @@ onMounted(() => {
 
 <style scoped>
 .mySwiper {
-  width: 400px;
-  height: 220px;
+
   /* border-radius: 4px; */
 }
 

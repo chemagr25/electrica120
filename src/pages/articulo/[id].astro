@@ -18,18 +18,20 @@ const { Content } = await render(post)
 ---
 
 <Layout title={`${title} - Eléctrica120`} description={descripton}>
-    <div class="main  p-5">
-        <h1 transition:name={`title-${slug}`} class="font-bold text-3xl md:text-4xl   title-article">{title}</h1>
-        <div class="extra-info font-semibold">
-            <div class="author">
-                <!-- <img src={`/logo.png`} alt=""> -->
-                <span >{author}</span>
+    <div class="w-full bg-[#f6f6f6]  flex justify-center">
+        <div class="main  lg:max-w-[800px]  flex flex-col   p-4">
+            <h1 class="font-bold text-3xl md:text-4xl mt-4 lg:text-5xl  title-article">{title}</h1>
+            <div class="extra-info font-semibold">
+                <div class="author">
+                    <!-- <img src={`/logo.png`} alt=""> -->
+                    <span >{author}</span>
+                </div>
+                <span>•</span>
+                <span>{pubDate}</span>
             </div>
-            <span>•</span>
-            <span>{pubDate}</span>
-        </div>
-        <div class="prose text-xl   bg-white">
-            <Content/>
+            <div class="prose mb-12 text-xl">
+                <Content/>
+            </div>
         </div>
     </div>
 </Layout>
@@ -40,20 +42,18 @@ const { Content } = await render(post)
 		border: 2px solid red;
 	}
 
-    .main {
-        max-width: 700px;
-        
-    }
+ 
     .content {
         background-color: white;
         width: 100%;
+        border: 1px solid red;
     }
 
     .extra-info {
         color: #6941c6;
         margin-top: 24px;
         padding-bottom: 16px;
-        margin-bottom: 24px ;
+        margin-bottom: 12px;
         display: flex;
         align-items: center;
         gap: 5px;
