@@ -14,6 +14,7 @@ const { title, description } = Astro.props;
 <!doctype html>
 <html lang="es">
 	<head>
+		 <link rel="icon" type="image/x-icon" href="/favu.webp">
 		<meta property="og:title" content={title} />
   		<meta property="og:description" content={description} />
   		<meta property="og:image" content="https://electrica120.vercel.app/logo.png" />
@@ -26,14 +27,13 @@ const { title, description } = Astro.props;
 		<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<ClientRouter/>
 		<title>{title}</title>
 		
 	</head>
 	<body >
-		<NavBar />
+		<NavBar title={title} />
 		<div class="main-container">
 			<slot class="w-full" />
 		</div>

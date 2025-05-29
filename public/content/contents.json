@@ -12,23 +12,23 @@
                 {"name": "Historia de la electrificación del tren maya", "imgCover": "/tren-maya-maga.png" , "url": "https://drive.google.com/file/d/1PgcedJGdLpV6a3q2I4-fjdxQIbLguYN0/view"}
             ]},
               {"sectionName": "Revistas IIE" , "mags" : [
-                {"name": "Planeación de la expansión de los medios de generación y transmisión de energía eléctrica", "imgCover": "/mags-cover/planeacion-expansion.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
-                {"name": "Sistema de enfriamiento en centrales eléctricas", "imgCover": "/mags-cover/enfriamento-centrales.png" , "url": "https://drive.google.com/file/d/1rQJ29PdRzUQ6SNlf8spgLHoeukC1TEdG/view"},
-                {"name": "Balanceo de máquinas rotatorias", "imgCover": "/mags-cover/balanceo-maq-rotatorias.png" , "url": "https://drive.google.com/file/d/13PpinSTcXFD8H4FHB9y9rePlGKrBZTYV/view"},
-                {"name": "Prueba de potencial aplicado en alta tensión en el laboratorio de salazar", "imgCover": "/mags-cover/lab-salazar.png" , "url": "https://drive.google.com/file/d/1PgcedJGdLpV6a3q2I4-fjdxQIbLguYN0/view"},
-                {"name": "Investigación y ahorro de energía en el sector eléctrico", "imgCover": "/mags-cover/investigacion-sector-elec.png" , "url": "https://drive.google.com/file/d/1PgcedJGdLpV6a3q2I4-fjdxQIbLguYN0/view"}
+                {"name": "Planeación de la expansión de los medios de generación y transmisión de energía eléctrica", "imgCover": "/mags-cover/planeacion-expansion.png" , "url": "https://drive.google.com/file/d/1sPZgu7rcXKCzmL_m9pKxBARsqgh3ICc3/view"},
+                {"name": "Sistema de enfriamiento en centrales eléctricas", "imgCover": "/mags-cover/enfriamento-centrales.png" , "url": "https://drive.google.com/file/d/1Xi5xi0sbO4OlIICWjMa-NZO5B8EPTaqT/view"},
+                {"name": "Balanceo de máquinas rotatorias", "imgCover": "/mags-cover/balanceo-maq-rotatorias.png" , "url": "https://drive.google.com/file/d/1RaqXRGumEW3zGmG1AT1d987uODRCJkX-/view"},
+                {"name": "Prueba de potencial aplicado en alta tensión en el laboratorio de salazar", "imgCover": "/mags-cover/lab-salazar.png" , "url": "https://drive.google.com/file/d/1YaoE5JJ4sttxOGkvfDedNE0bUsnup3Rl/view"},
+                {"name": "Investigación y ahorro de energía en el sector eléctrico", "imgCover": "/mags-cover/investigacion-sector-elec.png" , "url": "https://drive.google.com/file/d/1jBRuULMp-r_XD3uwe4puCyuiCwhKPGka/view"}
             ]}
             ,
               {"sectionName": "Revistas IEEE" , "mags" : [
-                {"name": "Calidad de la Energía Eléctrica", "imgCover": "/mags-cover/calite-energia.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"}
+                {"name": "Calidad de la Energía Eléctrica", "imgCover": "/mags-cover/calite-energia.png" , "url": "https://drive.google.com/file/d/1EhudjjiAr_9qC_GaB5Xgve8906qg09PH/view"}
             ]},
               {"sectionName": "Revistas Varias" , "mags" : [
-                {"name": "El nuevo mercado Eléctrico", "imgCover": "/mags-cover/nuevo-mercado-electri.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
-                {"name": "Energía Fotovoltaica", "imgCover": "/mags-cover/ener-fotovoltaica.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
-                {"name": "Del fuego a la energía nuclear", "imgCover": "/mags-cover/fuego-to-nuc.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
-                {"name": "Energía Renovable y nuevas Tecnologías", "imgCover": "/mags-cover/energ-nuev-tec.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
-                {"name": "El poder del sol", "imgCover": "/mags-cover/poder-sol.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
-                {"name": "Laboratorio de pruebas de equipos y materiales de la Comisión Federal de Electricidad", "imgCover": "/mags-cover/lab-pruebas.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"}
+                {"name": "El nuevo mercado Eléctrico", "imgCover": "/mags-cover/nuevo-mercado-electri.png" , "url": "https://drive.google.com/file/d/13bK9ZJ_9Y8iXiwzYeoSgWob5x6n8NXNF/view"},
+                {"name": "Energía Fotovoltaica", "imgCover": "/mags-cover/ener-fotovoltaica.png" , "url": "https://drive.google.com/file/d/1L7q5Pd4DEAbA-OaGdsX9MX8RHjaLjqGO/view"},
+                {"name": "Del fuego a la energía nuclear", "imgCover": "/mags-cover/fuego-to-nuc.png" , "url": "https://drive.google.com/file/d/1ef7mom3nzKldpyh4VwhT3WrvCfkIAU2r/view"},
+                {"name": "Energía Renovable y nuevas Tecnologías", "imgCover": "/mags-cover/energ-nuev-tec.png" , "url": "https://drive.google.com/file/d/1ch65EmXip8KdA3H8MYnp6YPtwVuqbEVB/view"},
+                {"name": "El poder del sol", "imgCover": "/mags-cover/poder-sol.png" , "url": "https://drive.google.com/file/d/1zGKxwoo1PzLRE1QlxLJuXgSd_tGTBkOd/view"},
+                {"name": "Laboratorio de pruebas de equipos y materiales de la Comisión Federal de Electricidad", "imgCover": "/mags-cover/lab-pruebas.png" , "url": "https://drive.google.com/file/d/1SePeL6QH8xa2g0Yj4ytQC-pg04CUBsqt/view"}
 
             ]}
         ]
@@ -51,9 +51,9 @@
         "description": "Este es el segundo producto.",
         "imgCover": "",
          "magazines": [
-            {"sectionName": "" , "mags" : [
-                {"name": "Protecciones de Sistemas Eléctricos de Potencia ", "imgCover": "/mags-cover/proteccion-sistemas.jpeg" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
-                {"name": "Maquinas Síncronas de Corriente continua", "imgCover": "/mags-cover/maquinas-cont.jpg" , "url": "https://drive.google.com/file/d/1rQJ29PdRzUQ6SNlf8spgLHoeukC1TEdG/view"}
+            {"sectionName": "Únete a las comunidades de Telegram" , "mags" : [
+                {"name": "Protecciones de Sistemas Eléctricos de Potencia ", "imgCover": "/mags-cover/proteccion-sistemas.jpeg" , "url": "https://t.me/+_IVasiuLVu1mYmU5"},
+                {"name": "Maquinas Síncronas de Corriente continua", "imgCover": "/mags-cover/maquinas-cont.jpg" , "url": "https://t.me/+_IVasiuLVu1mYmU5"}
             ]}
               
         ]
@@ -65,11 +65,11 @@
         "imgCover": "",
         "magazines": [
             {"sectionName": "" , "mags" : [
-                {"name": "DIALUX", "imgCover": "/app-cover/dx.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
-                {"name": "Proteus", "imgCover": "/app-cover/proteus.png" , "url": "https://drive.google.com/file/d/1rQJ29PdRzUQ6SNlf8spgLHoeukC1TEdG/view"},
-                {"name": "TIA PORTAL V15", "imgCover": "/app-cover/TIA-PORTAL.jpg" , "url": "https://drive.google.com/file/d/13PpinSTcXFD8H4FHB9y9rePlGKrBZTYV/view"},
-                {"name": "SIM EKB", "imgCover": "/app-cover/sim-ekb.png" , "url": "https://drive.google.com/file/d/1PgcedJGdLpV6a3q2I4-fjdxQIbLguYN0/view"},
-                {"name": "MATLAB", "imgCover": "/app-cover/MATLAB.jpg" , "url": "https://drive.google.com/file/d/1PgcedJGdLpV6a3q2I4-fjdxQIbLguYN0/view"}
+                {"name": "DIALUX", "imgCover": "/app-cover/dx.png" , "url": "https://drive.google.com/file/d/1NoQL4QvgXeHUOvOCGO9Zxl9YeH6sExdv/view"},
+                {"name": "Proteus", "imgCover": "/app-cover/proteus.png" , "url": "https://www.labcenter.com/"},
+                {"name": "TIA PORTAL V15", "imgCover": "/app-cover/TIA-PORTAL.jpg" , "url": ""},
+                {"name": "SIM EKB", "imgCover": "/app-cover/sim-ekb.png" , "url": ""},
+                {"name": "MATLAB", "imgCover": "/app-cover/MATLAB.jpg" , "url": "https://docs.google.com/document/d/19lRomXLpaavessA22ABd5OE4mA2DAWPz/edit?pli=1&tab=t.0"}
             ]}
         ]
     }

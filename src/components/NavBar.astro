@@ -1,5 +1,9 @@
 ---
+interface Props {
+    title: string;
+}
 
+const {title } = Astro.props
 ---
 
 <nav class="nav h-8 w-full">
@@ -11,8 +15,8 @@
                 <img src="/logo.png" alt="" class="w-[50px] h-[50px] md:w-[70px] md:h-[70px]" />
             </a>
             
-            <div class="logo text-2xl lg:text-3xl font-light">
-                Eléctrica 120°
+            <div class="logo text-2xl lg:text-3xl ">
+                {title}
             </div>
         </div>
     </div>

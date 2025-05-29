@@ -17,7 +17,7 @@ const { title, author, pubDate, descripton, imgCover = "" } = data;
 const { Content } = await render(post)
 ---
 
-<Layout title={`${title} - Eléctrica120`} description={descripton}>
+<Layout title={`Eléctrica120°`} description={descripton}>
     <div class="w-full bg-[#f6f6f6]  flex justify-center">
         <div class="main  lg:max-w-[800px]  flex flex-col   p-4">
             <h1 class="font-bold text-3xl md:text-4xl mt-4 lg:text-5xl  title-article">{title}</h1>
@@ -29,7 +29,7 @@ const { Content } = await render(post)
                 <span>•</span>
                 <span>{pubDate}</span>
             </div>
-            <div class="prose mb-12 text-xl">
+            <div class="prose mb-12 text-2xl">
                 <Content/>
             </div>
         </div>
