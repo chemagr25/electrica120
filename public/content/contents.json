@@ -1,0 +1,54 @@
+[
+    {
+        "slug": "revistas-informativas",
+        "title": "Revistas informativas",
+        "description": "Este es el primer producto.",
+        "imgCover": "",
+        "magazines": [
+            {"sectionName": "Revistas CFE" , "mags" : [
+                {"name": "Alterna N10°", "imgCover": "https://www.cfe.gob.mx/cdn/2019/RepositorioMultimedia/1_1_Alterna10.jpeg" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
+                {"name": "Alterna N11°", "imgCover": "https://www.cfe.gob.mx/cdn/2019/RepositorioMultimedia/1_alterna11.jpg" , "url": "https://drive.google.com/file/d/1rQJ29PdRzUQ6SNlf8spgLHoeukC1TEdG/view"},
+                {"name": "El futuro de la energía Solar", "imgCover": "/futuro-energia-solar.png" , "url": "https://drive.google.com/file/d/13PpinSTcXFD8H4FHB9y9rePlGKrBZTYV/view"},
+                {"name": "Historia de la electrificación del tren maya", "imgCover": "/tren-maya-maga.png" , "url": "https://drive.google.com/file/d/1PgcedJGdLpV6a3q2I4-fjdxQIbLguYN0/view"}
+            ]},
+              {"sectionName": "Revistas IIE" , "mags" : [
+                {"name": "Planeación de la expansión de los medios de generación y transmisión de energía eléctrica", "imgCover": "/mags-cover/planeacion-expansion.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"},
+                {"name": "Sistema de enfriamiento en centrales eléctricas", "imgCover": "/mags-cover/enfriamento-centrales.png" , "url": "https://drive.google.com/file/d/1rQJ29PdRzUQ6SNlf8spgLHoeukC1TEdG/view"},
+                {"name": "Balanceo de máquinas rotatorias", "imgCover": "/mags-cover/balanceo-maq-rotatorias.png" , "url": "https://drive.google.com/file/d/13PpinSTcXFD8H4FHB9y9rePlGKrBZTYV/view"},
+                {"name": "Prueba de potencial aplicado en alta tensión en el laboratorio de salazar", "imgCover": "/mags-cover/lab-salazar.png" , "url": "https://drive.google.com/file/d/1PgcedJGdLpV6a3q2I4-fjdxQIbLguYN0/view"},
+                {"name": "Investigación y ahorro de energía en el sector eléctrico", "imgCover": "/mags-cover/investigacion-sector-elec.png" , "url": "https://drive.google.com/file/d/1PgcedJGdLpV6a3q2I4-fjdxQIbLguYN0/view"}
+            ]}
+            ,
+              {"sectionName": "Revistas IEEE" , "mags" : [
+                {"name": "Calidad de la Energía Eléctrica", "imgCover": "/mags-cover/calite-energia.png" , "url": "https://drive.google.com/file/d/1xMVjhKnMJXdOWzatVtKlyKAxKnIbEgwB/view"}
+            ]}
+        ]
+    },
+    {
+        "slug": "informes-residenciales",
+        "title": "Informes residenciales",
+        "description": "Este es el segundo producto.",
+        "imgCover": "",
+        "magazines": [
+            {}
+        ]
+    },
+    {
+        "slug": "materias",
+        "title": "Materias",
+        "description": "Este es el segundo producto.",
+        "imgCover": "",
+        "magazines": [
+            {}
+        ]
+    },
+    {
+        "slug": "programas-escenciales",
+        "title": "Programas",
+        "description": "Este es el segundo producto.",
+        "imgCover": "",
+        "magazines": [
+            {}
+        ]
+    }
+]

@@ -13,28 +13,25 @@ const { title, imgCover, description, author, pubDate, slug } = Astro.props;
 
 <article class="card-composition flex flex-col w-full">
     <div>
-        <a href={`/articulo/${slug}`}>
+        <a href={`/content/${slug}`}>
             <div
-                class="img-cover  rounded-t-lg w-full h-[220px]"
-                style={`background-image: url("${imgCover}");`}
+                class="img-cover  rounded-t-lg w-full h-[250px]"
+                style={`background-image: url("${imgCover || '/logo-uni.jpg' }");`}
             >
             </div>
         </a>
-        <div class="bg-[#f4f4f4] p-4 pr-3  info rounded-b-xl">
-            <p class="author text-md font-semibold">
-                {`${author} • ${pubDate}`}
-            </p>
-            <a href={`/articulo/${slug}`} class="text-xl title font-semibold"
+  
+
+        <div class=" p-4 pr-3  info rounded-b-xl">
+            <a href={`/content/${slug}`} class="text-xl title font-semibold"
                 ><p class="`title mt-3">{title}</p></a
             >
-            <p class="prose description mt-2 text-lg w-full pr-6">{description}</p>
         </div>
     </div>
 </article>
 <style>
 
    .info {
-    height: 220px;
    }
     .title {
         display: -webkit-box;
@@ -68,4 +65,10 @@ const { title, imgCover, description, author, pubDate, slug } = Astro.props;
     .prose {
         color: #667085;
     }
+
+    img {
+        width: 100%;
+        border-radius: 30px;
+    }
+
 </style>

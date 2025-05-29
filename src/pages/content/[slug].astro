@@ -1,0 +1,25 @@
+---
+import data from  '../../../public/content/contents.json'
+import Layout from '../../layouts/Layout.astro';
+import Magazines from '../../components/Magazines.astro'
+
+export async function getStaticPaths() {
+  return data.map(content => ({
+    params: { slug: content.slug },
+    props: { content }
+  }));
+}
+
+const { content } = Astro.props;
+const {magazines} = content;
+
+
+
+
+---
+
+
+<Layout title={content.title} description='hola'>
+
+<Magazines {...content} />
+</Layout>

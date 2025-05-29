@@ -2,8 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 import Carousel from "../components/Carousel.vue";
 import CardComposition from "../components/CardComposition.astro";
+import CardCompositionContent from "../components/CardCompositionContent.astro";
 import { getCollection } from "astro:content";
 const posts = await getCollection("posts");
+
+import contents from '../../public/content/contents.json'
+
+
+
 
 // <SliderCarousel></SliderCarousel>
 ---
@@ -54,6 +60,25 @@ const posts = await getCollection("posts");
 				})
 			}
 		</div>
+		<h1 class="mt-16 text-3xl font-light ml-7">Material</h1>
+			<div class="articles mb-12 px-7 lg-[40px] gap-8 mt-6 grid grid-cols-2  md:grid md:grid-cols-2 lg:grid-cols-6">
+			{
+				contents.map((content) => {
+					const { slug, title, imgCover, description } = content;
+					return (
+						<CardCompositionContent
+							title={title}
+							imgCover={imgCover}
+							description={description}
+							slug={slug}
+						/>
+					);
+				})
+			}
+			
+		</div>
+		
+
 	</div>
 </Layout>
 

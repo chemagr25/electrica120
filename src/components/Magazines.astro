@@ -1,0 +1,46 @@
+---
+
+const { slug, magazines } = Astro.props;
+---
+
+<section id={slug}>
+
+  {magazines.map(section => (
+    <div>
+      <h3>{section.sectionName}</h3>
+      <div class="magazine-list">
+        {section.mags.map(mag => (
+          <article class="mag" key={mag.name}>
+            <a href={mag.url} target="_blank" rel="noopener noreferrer">
+              <img src={mag.imgCover} alt={`Portada de ${mag.name}`} loading="lazy" />
+              <h4>{mag.name}</h4>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  ))}
+</section>
+
+<style>
+  .magazine-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .mag {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 8px;
+    text-align: center;
+    background: #f9f9f9;
+  }
+
+  .mag img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+</style>
