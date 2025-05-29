@@ -20,6 +20,8 @@ const {magazines} = content;
 
 
 <Layout title={content.title} description='hola'>
-
-<Magazines {...content} />
+  <div class="mb-24">
+    <p>{content.title}</p>
+    <Magazines {...content} />
+  </div>
 </Layout>

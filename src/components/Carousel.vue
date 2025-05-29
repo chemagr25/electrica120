@@ -31,10 +31,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.mySwiper {
 
-  /* border-radius: 4px; */
-}
 
 .swiper-slide {
   text-align: center;
@@ -52,9 +49,10 @@ onMounted(() => {
   object-fit: cover;
 }
 
-.active {
-  background: rgb(211, 132, 132) !important;
-  border: 1px solid red;
-  
+
+
+::v-deep(.swiper-pagination-bullet-active) {
+  background-color: #6941c6;
 }
+
 </style>

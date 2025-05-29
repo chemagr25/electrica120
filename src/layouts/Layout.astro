@@ -37,7 +37,10 @@ const { title, description } = Astro.props;
 		<div class="main-container">
 			<slot class="w-full" />
 		</div>
-		<Footer/>
+		<div class="footer">
+
+			<Footer/>
+		</div>
 	</body>
 </html>
 
@@ -46,5 +49,15 @@ const { title, description } = Astro.props;
 
 	.main-container {
 		font-family: "Inter", sans-serif;
+	}
+
+	body {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		min-height: 100vh;
+	}
+	.footer {
+	margin-top: auto;
 	}
 </style>
