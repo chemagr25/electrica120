@@ -1,16 +1,51 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
-
-import tailwindcss from '@tailwindcss/vite';
-
 import mdx from '@astrojs/mdx';
-import vue from '@astrojs/vue';
+import tailwind from '@astrojs/tailwind';
+import compressor from 'astro-compressor';
+import sitemap from '@astrojs/sitemap';
+import robotsTxt from 'astro-robots-txt';
+import { VitePWA } from 'vite-plugin-pwa';
+
+import { manifest } from './src/utils/manifest';
 
 // https://astro.build/config
 export default defineConfig({
-  vite: {
-    plugins: [tailwindcss()]
+  site: 'http://localhost:4322/',
+  image: {
+    remotePatterns: [{ protocol: 'https' }],
   },
-
-  integrations: [mdx(), vue()]
+  markdown: {
+    drafts: true,
+    shikiConfig: {
+      theme: 'material-theme-palenight',
+      wrap: true,
+    },
+  },
+  integrations: [
+    mdx({
+      syntaxHighlight: 'shiki',
+      shikiConfig: {
+        theme: 'material-theme-palenight',
+        wrap: true,
+      },
+      drafts: true,
+    }),
+    compressor({ gzip: true, brotli: true }),
+    sitemap(),
+    tailwind(),
+    robotsTxt(),
+  ],
+  vite: {
+    plugins: [
+      VitePWA({
+        registerType: 'autoUpdate',
+        manifest,
+        workbox: {
+          globDirectory: 'dist',
+          globPatterns: ['**/*.{js,css,svg,png,jpg,jpeg,gif,webp,woff,woff2,ttf,eot,ico}'],
+          navigateFallback: null,
+        },
+      }),
+    ],
+  },
 });
