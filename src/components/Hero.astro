@@ -1,19 +1,19 @@
 ---
-import { Image } from 'astro:assets';
 import config from '@config/config.json';
 import social from '@config/social';
+import SliderComponent from './libraries/vue/SliderComponent.vue';
 
 const socialItems = social.networks;
 ---
 
-<section class="bg-zinc-50 dark:bg-zinc-900">
+<section class="bg-zinc-50 dark:bg-zinc-900 ">
   <div class="mx-auto max-w-screen-lg px-4 py-0 pb-6 sm:px-6 sm:pb-12 lg:px-8">
-    <div class="flex items-start justify-between">
-      <div class="w-3/5 rounded-lg">
-        <h1 class="mb-0 text-lg font-bold text-zinc-900 dark:text-white sm:text-3xl md:text-2xl">
+    <div class="flex items-start justify-between flex-col gap-5 md:flex-row">
+      <div class="w-full md:w-1/2 rounded-lg">
+        <h1 class="mb-0  font-bold text-zinc-900 dark:text-white text-4xl md:text-2xl">
           {config.author.name}
         </h1>
-        <p class="mt-1.5 text-sm text-zinc-500 dark:text-zinc-400 md:text-lg">
+        <p class="mt-1.5 text-md text-zinc-500 dark:text-zinc-400 md:text-lg">
           {config.author.bio}
         </p>
         <div class="m-auto flex space-x-5 pt-8">
@@ -28,18 +28,8 @@ const socialItems = social.networks;
           }
         </div>
       </div>
-      <div class="rounded-lg">
-        <figure class="right-0">
-          <Image
-            class="w-24 rounded-lg md:w-32"
-            width={512}
-            height={512}
-            src={config.author.avatar}
-            alt={config.author.name}
-            decoding="async"
-            loading="lazy"
-          />
-        </figure>
+      <div class="rounded-lg w-full md:w-1/2 mt-4">
+       <SliderComponent client:load/>
       </div>
     </div>
   </div>
