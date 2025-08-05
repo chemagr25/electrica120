@@ -4,8 +4,8 @@
     "base_url": "https://www.electrica120.vercel.app",
     "base_path": "/",
     "favicon": "/favicon.png",
-    "logoLight": "https://electrica120.vercel.app/_astro/logo_1sqGYq.webp",
-    "logoDark": "https://electrica120.vercel.app/_astro/logo_1sqGYq.webp",
+    "logoLight": "https://electrica120.vercel.app/logo.webp",
+    "logoDark": "https://electrica120.vercel.app/logo.webp",
     "lang": "en",
     "description": "Espacio para estudiantes.",
     "pageSize": 6
@@ -21,7 +21,7 @@
   },
   "author": {
     "name": "Electrica 120°",
-    "avatar": "https://electrica120.vercel.app/_astro/logo_1sqGYq.webp",
+    "avatar": "https://electrica120.vercel.app/logo.webp",
     "bio": "Somos un espacio para estudiantes de Ingeniería Eléctrica que buscan aprender, compartir experiencias y encontrar motivación. Aquí conectamos con la esencia de la carrera y recordamos vivir el presente: carpe diem, porque algún día todos dejaremos de respirar."
   }
 }
