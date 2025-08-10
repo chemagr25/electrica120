@@ -3,10 +3,9 @@ title: "En memoria del Dr. Gilberto Enríquez Harper (Agosto 1944 - Octubre 2019
 author: "Electrica 120°"
 tags: ["Curso"]
 pubDate: '2021-09-19T01:19:52.704Z'
-
 description: Queremos dar las gracias al legado que ha dejado el Ingeniero Gilberto Enríquez Harper.
 heroImage: /memoria.jpg
-categories: ['Concurso']
+categories: ['Memoria']
 
 
 ---

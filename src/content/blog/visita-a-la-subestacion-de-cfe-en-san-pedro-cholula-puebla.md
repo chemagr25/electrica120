@@ -5,7 +5,7 @@ tags: ["Visita"]
 pubDate: "2025-06-09T23:39:55.817Z"
 description: "Visita realizada a la subestación de CFE en San Pedro Cholula - Puebla. "
 heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ5PPYn15_Mged4AU731M1dOofskSV3ob7T3JHjF0iYJEa28YiCKic7sG4sTkHGAMaiL-J2-vgVr9XqCVw6zLnnHcRmq2mlrvwDJj3CpYEahih0c3rm3km3QctRckgPbz5bizlbpAROrOjWo3KjBrN1CL3gHVzCMyr7WHtFcdcPpzw0fxX-J7hQ5t5xVFQ/s320/WhatsApp%20Image%202024-10-22%20at%208.11.20%20AM.jpeg"
-categories: ["Vista"]
+categories: ["Visita"]
 ---
 
 

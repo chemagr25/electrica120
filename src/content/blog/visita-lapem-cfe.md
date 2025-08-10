@@ -3,8 +3,8 @@ title: "Visita a LAPEM CFE Irapuato"
 description: Los aprendizajes obtenidos en LAPEM (Laboratorio de Pruebas, Equipos y Materiales de CFE) son de gran valor para los futuros ingenieros
 pubDate: '2021-09-19T01:19:52.704Z'
 heroImage: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPwNG8kJNa9qVG6N00RKnLuExODmO8wy6gY1dh_2am4w3q_KZvLKvrGptSear2sAU2mNK5XB0TwXf9ckqiazjQaEEcz7gX2GPi0juBV993c4zgtS7_DIKnGkABOC214JCl74zG4frj_SJUKr5P8rI7M-ZmQxtPoEPTw2oZt7L_mzfUuhwBATVPNBqlGr1W/s1600/WhatsApp%20Image%202024-10-29%20at%207.15.22%20PM%20(2).jpeg"
-categories: ['Concurso']
-tags: ['Concurso']
+categories: ['Visita']
+tags: ['Visita']
 author: "Eléctrica120°"
 ---
 

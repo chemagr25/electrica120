@@ -20,6 +20,10 @@ const onSlideChange = () => {
 
 <template>
   <swiper
+  :style="{
+      '--swiper-navigation-color': '#9333EA',
+      '--swiper-pagination-color': '#9333EA',
+    }"
     :modules="modules"
     :slides-per-view="1"
     :space-between="30"
@@ -54,9 +58,5 @@ const onSlideChange = () => {
 img {
     border-radius: 10px;
     object-fit: contain; 
-}
-
-.swiper-pagination-bullet {
-  background-color: #9333EA;
 }
 </style>
