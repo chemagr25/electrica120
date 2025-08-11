@@ -18,11 +18,11 @@ onMounted(() => {
     const btnRight = container.querySelector('.btn.right')
 
     btnLeft.addEventListener('click', () => {
-      cardsCont.scrollBy({ left: -440, behavior: 'smooth' })
+      cardsCont.scrollBy({ left: -220, behavior: 'smooth' })
     })
 
     btnRight.addEventListener('click', () => {
-      cardsCont.scrollBy({ left: 440, behavior: 'smooth' })
+      cardsCont.scrollBy({ left: 220, behavior: 'smooth' })
     })
   })
 })
@@ -33,15 +33,29 @@ onMounted(() => {
 
 <template>
   <div class="mt-24">
-    <h1 class="mt-3 text-3xl font-semibold leading-6 text-zinc-900 group-hover:text-zinc-600 dark:text-white"> {{ titleSection }}</h1>
+    <h1 class="mt-3 text-3xl font-semibold leading-6 text-zinc-900 dark:text-white">
+      {{ titleSection }}
+    </h1>
+
     <div class="slider-container">
       <button class="btn left" @click="scrollLeft">‹</button>
+
       <div ref="cardsCont" class="cards-cont">
-        <div class="card-composition flex flex-col" v-for="item in items">
-          <div class="card"   :style="{ backgroundImage: `url(${item.cover})` }"></div>
-          <div class="mt-3 text-xl font-semibold leading-6 text-zinc-900 group-hover:text-zinc-600 dark:text-white">{{ item?.name }}</div>
+        <div class="card-composition" v-for="item in items" :key="item.name">
+          <div class="card-inner">
+            <!-- Cara frontal -->
+            <div class="card-front" :style="{ backgroundImage: `url(${item.cover})` }"></div>
+            <!-- Cara trasera -->
+            <div class="card-back">
+              <p>{{ item?.description || 'Este es el texto por detrás' }}</p>
+            </div>
+          </div>
+          <div class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white">
+            {{ item?.name }}
+          </div>
         </div>
       </div>
+
       <button class="btn right" @click="scrollRight">›</button>
     </div>
   </div>
@@ -56,6 +70,7 @@ onMounted(() => {
 
 .cards-cont {
   display: flex;
+  height: 340px;
   gap: 1.5rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -64,24 +79,50 @@ onMounted(() => {
   scroll-behavior: smooth;
 }
 
-.card {
+.card-composition {
   flex: 0 0 auto;
   width: 200px;
-  height: 250px;
+  height: 250px; /* solo la parte que rota */
+  perspective: 1000px;
+}
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card-composition:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
   border-radius: 10px;
-  scroll-snap-align: start;
+  overflow: hidden;
+}
+
+/* Frente */
+.card-front {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
-.card-composition {
-  transition: transform 0.3s ease;
-
-
-}
-
-.card-composition:hover {
-  transform: scale(1.1);
+/* Parte trasera */
+.card-back {
+  background: #333;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 .cards-cont::-webkit-scrollbar {
