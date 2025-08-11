@@ -2,91 +2,20 @@
 "magazines" : [ {
     "title_section": "CFE",
     "items": [
-      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
-      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
-      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
-      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
-      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+      { "name": "ALTERNA N° 10", "cover": "/magazines-cover/alterna10.jpeg", "description": "Se presenta un proyecto de la CFE para instalar centrales fotovoltaicas flotantes que generen electricidad solar sin baterías, combinando su operación con energía hidroeléctrica para impulsar energías limpias.", "url": "https://example.com/1" },
+      { "name": "ALTERNA N° 11", "cover": "/magazines-cover/alterna11.jpg", "description": "Podemos encontrar diversos temas, los cuales se encuentran: energías limpias vs ahorro energético, como funciona un generador eléctrico, la ciudad de México se renueva con una nueva línea de cablebús ...", "url": "https://example.com/2" },
+      { "name": "El futuro de la energía solar", "cover": "/magazines-cover/futuro-energia-solar.png", "description": "Podemos ver los desafíos que se han tenido al tratar de construir la central fotovoltaica más grande América, ya que hay muchos factores que se ven implicados a la hora de realizar este proyecto como son los...", "url": "https://example.com/3" },
+      { "name": "Electrificación del Tren Maya", "cover": "/magazines-cover/elect-tren-maya.png", "description": "La siguiente revista busca dejar constancia de las exigencias que el personal de la Comisión Federal de Electricidad es capaz de sortear con éxito. ...", "url": "https://example.com/4" }
     ]
   },
   {
-    "title_section": "Sección 2",
+    "title_section": "Boletin IIE",
     "items": [
-      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
-      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
-      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
-      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
-      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
-    ]
-  },
-  {
-    "title_section": "Sección 3",
-    "items": [
-      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
-      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
-      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
-      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
-      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
-    ]
-  },
-  {
-    "title_section": "CFE",
-    "items": [
-      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
-      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
-      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
-      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
-      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
-    ]
-  },
-  {
-    "title_section": "Sección 4",
-    "items": [
-      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
-      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
-      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
-      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
-      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
-    ]
-  },
-  {
-    "title_section": "Sección 5",
-    "items": [
-      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
-      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
-      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
-      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
-      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
-    ]
-  },
-  {
-    "title_section": "CFE",
-    "items": [
-      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
-      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
-      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
-      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
-      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
-    ]
-  },
-  {
-    "title_section": "Sección 6",
-    "items": [
-      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
-      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
-      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
-      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
-      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
-    ]
-  },
-  {
-    "title_section": "Sección 7",
-    "items": [
-      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
-      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
-      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
-      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
-      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+      { "name": " Planeación de la expansión de los medios de generación y transmisión de energía eléctrica", "cover": "/magazines-cover/IEE1.png", "description": "La planeación de futuras instalaciones de generación y transmisión es una tarea compleja que se basa en el uso de herramientas matemáticas; en este articulo encontraremos parte del desarrollo de un paquete de sofware que permita la planeación simultánea y a largo plazo de la expansión de los sistemas de generación y transmisión.", "url": "https://example.com/1" },
+      { "name": "Sistemas de enfriamiento en centrales eléctricas", "cover": "/magazines-cover/enf-centrales-elec.png", "description": "Los sistemas de enfriamiento inciden directamente en la eficiencia de las centrales termoeléctricas y por ello desempeñan un papel importante en la generación de energía eléctrica; en esta revista, encontramos que el Instituto de Investigaciones Eléctricas (IIE) realizó una investigación en esta área para establecer herramientas que ayuden a determinar cual es el mejor sistema de enfriamiento ...", "url": "https://example.com/2" },
+      { "name": "Balanceo de máquinas rotatorias", "cover": "/magazines-cover/balanceo-maq-rot.png", "description": "Descripción detallada de cómo LAPEM realiza el balanceo de máquinas rotatorias. A través de un proceso de diagnóstico y corrección de vibraciones, se asegura de optimizar el rendimiento y la vida útil de las máquinas. Mediante la medición precisa de vibraciones y ajustes en las masas rotatorias, LAPEM minimiza los desbalances, garantizando así un funcionamiento eficiente y seguro de los equipos eléctricos.", "url": "https://example.com/3" },
+      { "name": "Prueba de potencial aplicado en alta tensión en el laboratorio de Salazar", "cover": "/magazines-cover/potencial-aplicado-salazar.png", "description": "Información sobre la prueba de potencial aplicado en alta tensión realizada en el Laboratorio de Salazar. Esta prueba se lleva a cabo para verificar la capacidad de aislamiento de los equipos eléctricos sometidos a altos voltajes, simulando condiciones extremas de operación. El proceso consiste en aplicar una tensión elevada a los equipos y medir su comportamiento ...", "url": "https://example.com/4" },
+      { "name": "Investigación y ahorro de energía en el sector eléctrico", "cover": "/magazines-cover/inv-ahorr.png", "description": "Estudios y proyectos enfocados en mejorar la eficiencia energética, reducir pérdidas y promover el uso sostenible de recursos en el sector eléctrico. Encontrarás innovaciones tecnológicas, casos de estudio y recomendaciones prácticas para optimizar el uso de energía.", "url": "https://example.com/5" }
     ]
   }
 
