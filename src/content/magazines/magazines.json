@@ -1,0 +1,94 @@
+{
+"magazines" : [ {
+    "title_section": "CFE",
+    "items": [
+      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
+      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
+      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
+      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
+      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+    ]
+  },
+  {
+    "title_section": "Sección 2",
+    "items": [
+      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
+      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
+      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
+      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
+      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+    ]
+  },
+  {
+    "title_section": "Sección 3",
+    "items": [
+      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
+      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
+      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
+      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
+      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+    ]
+  },
+  {
+    "title_section": "CFE",
+    "items": [
+      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
+      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
+      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
+      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
+      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+    ]
+  },
+  {
+    "title_section": "Sección 4",
+    "items": [
+      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
+      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
+      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
+      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
+      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+    ]
+  },
+  {
+    "title_section": "Sección 5",
+    "items": [
+      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
+      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
+      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
+      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
+      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+    ]
+  },
+  {
+    "title_section": "CFE",
+    "items": [
+      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
+      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
+      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
+      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
+      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+    ]
+  },
+  {
+    "title_section": "Sección 6",
+    "items": [
+      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
+      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
+      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
+      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
+      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+    ]
+  },
+  {
+    "title_section": "Sección 7",
+    "items": [
+      { "name": "Item 1", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 1", "url": "https://example.com/1" },
+      { "name": "Item 2", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 2", "url": "https://example.com/2" },
+      { "name": "Item 3", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 3", "url": "https://example.com/3" },
+      { "name": "Item 4", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 4", "url": "https://example.com/4" },
+      { "name": "Item 5", "cover": "/magazines-cover/alterna10.jpeg", "description": "Descripción del item 5", "url": "https://example.com/5" }
+    ]
+  }
+
+]
+}

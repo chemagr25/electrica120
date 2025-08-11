@@ -25,31 +25,6 @@ module.exports = {
             iframe: {
               'border-radius': '0.5rem',
             },
-            code: {
-              'background-color': 'rgb(var(--color-code-bg))',
-              color: 'rgb(var(--color-code-text))',
-              padding: '0.25rem 0.5rem',
-              'border-radius': '0.25rem',
-              'font-size': '0.875rem',
-              'line-height': '1.5',
-              'font-family': "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
-            },
-            'ol > li::before': {
-              color: 'rgb(var(--color-text-bold))',
-            },
-            li: {
-              'margin-bottom': '0.5rem',
-              color: 'rgb(var(--color-code-text))',
-              'font-size': '1rem',
-              'line-height': '1.5',
-              'font-family': "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
-            },
-            'code::before': {
-              content: 'none',
-            },
-            'code::after': {
-              content: 'none',
-            },
             blockquote: {
               border: 'none',
               position: 'relative',

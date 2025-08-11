@@ -1,0 +1,15 @@
+---
+import CardSectionMagazineComponent from "@components/libraries/vue/CardSectionMagazineComponent.vue"
+
+
+const { magazines } = Astro.props
+
+
+---
+
+
+ {
+    magazines.magazines.map( (magazine)=> ( <CardSectionMagazineComponent client:load titleSection={magazine?.title_section} items={magazine?.items}  ></CardSectionMagazineComponent>) )
+ }
+
+
