@@ -1,23 +1,131 @@
 {
-"magazines" : [ {
-    "title_section": "CFE",
-    "items": [
-      { "name": "ALTERNA N° 10", "cover": "/magazines-cover/alterna10.jpeg", "description": "Se presenta un proyecto de la CFE para instalar centrales fotovoltaicas flotantes que generen electricidad solar sin baterías, combinando su operación con energía hidroeléctrica para impulsar energías limpias.", "url": "https://example.com/1" },
-      { "name": "ALTERNA N° 11", "cover": "/magazines-cover/alterna11.jpg", "description": "Podemos encontrar diversos temas, los cuales se encuentran: energías limpias vs ahorro energético, como funciona un generador eléctrico, la ciudad de México se renueva con una nueva línea de cablebús ...", "url": "https://example.com/2" },
-      { "name": "El futuro de la energía solar", "cover": "/magazines-cover/futuro-energia-solar.png", "description": "Podemos ver los desafíos que se han tenido al tratar de construir la central fotovoltaica más grande América, ya que hay muchos factores que se ven implicados a la hora de realizar este proyecto como son los...", "url": "https://example.com/3" },
-      { "name": "Electrificación del Tren Maya", "cover": "/magazines-cover/elect-tren-maya.png", "description": "La siguiente revista busca dejar constancia de las exigencias que el personal de la Comisión Federal de Electricidad es capaz de sortear con éxito. ...", "url": "https://example.com/4" }
-    ]
-  },
-  {
-    "title_section": "Boletin IIE",
-    "items": [
-      { "name": " Planeación de la expansión de los medios de generación y transmisión de energía eléctrica", "cover": "/magazines-cover/IEE1.png", "description": "La planeación de futuras instalaciones de generación y transmisión es una tarea compleja que se basa en el uso de herramientas matemáticas; en este articulo encontraremos parte del desarrollo de un paquete de sofware que permita la planeación simultánea y a largo plazo de la expansión de los sistemas de generación y transmisión.", "url": "https://example.com/1" },
-      { "name": "Sistemas de enfriamiento en centrales eléctricas", "cover": "/magazines-cover/enf-centrales-elec.png", "description": "Los sistemas de enfriamiento inciden directamente en la eficiencia de las centrales termoeléctricas y por ello desempeñan un papel importante en la generación de energía eléctrica; en esta revista, encontramos que el Instituto de Investigaciones Eléctricas (IIE) realizó una investigación en esta área para establecer herramientas que ayuden a determinar cual es el mejor sistema de enfriamiento ...", "url": "https://example.com/2" },
-      { "name": "Balanceo de máquinas rotatorias", "cover": "/magazines-cover/balanceo-maq-rot.png", "description": "Descripción detallada de cómo LAPEM realiza el balanceo de máquinas rotatorias. A través de un proceso de diagnóstico y corrección de vibraciones, se asegura de optimizar el rendimiento y la vida útil de las máquinas. Mediante la medición precisa de vibraciones y ajustes en las masas rotatorias, LAPEM minimiza los desbalances, garantizando así un funcionamiento eficiente y seguro de los equipos eléctricos.", "url": "https://example.com/3" },
-      { "name": "Prueba de potencial aplicado en alta tensión en el laboratorio de Salazar", "cover": "/magazines-cover/potencial-aplicado-salazar.png", "description": "Información sobre la prueba de potencial aplicado en alta tensión realizada en el Laboratorio de Salazar. Esta prueba se lleva a cabo para verificar la capacidad de aislamiento de los equipos eléctricos sometidos a altos voltajes, simulando condiciones extremas de operación. El proceso consiste en aplicar una tensión elevada a los equipos y medir su comportamiento ...", "url": "https://example.com/4" },
-      { "name": "Investigación y ahorro de energía en el sector eléctrico", "cover": "/magazines-cover/inv-ahorr.png", "description": "Estudios y proyectos enfocados en mejorar la eficiencia energética, reducir pérdidas y promover el uso sostenible de recursos en el sector eléctrico. Encontrarás innovaciones tecnológicas, casos de estudio y recomendaciones prácticas para optimizar el uso de energía.", "url": "https://example.com/5" }
-    ]
-  }
-
-]
+  "magazines": [
+    {
+      "title_section": "CFE",
+      "items": [
+        {
+          "name": "ALTERNA N° 10",
+          "cover": "/magazines-cover/alterna10.jpeg",
+          "description": "Se presenta un proyecto de la CFE para instalar centrales fotovoltaicas flotantes que generen electricidad solar sin baterías, combinando su operación con energía hidroeléctrica para impulsar energías limpias.",
+          "url": "https://example.com/1"
+        },
+        {
+          "name": "ALTERNA N° 11",
+          "cover": "/magazines-cover/alterna11.jpg",
+          "description": "Podemos encontrar diversos temas, los cuales se encuentran: energías limpias vs ahorro energético, como funciona un generador eléctrico, la ciudad de México se renueva con una nueva línea de cablebús ...",
+          "url": "https://example.com/2"
+        },
+        {
+          "name": "El futuro de la energía solar",
+          "cover": "/magazines-cover/futuro-energia-solar.png",
+          "description": "Podemos ver los desafíos que se han tenido al tratar de construir la central fotovoltaica más grande América, ya que hay muchos factores que se ven implicados a la hora de realizar este proyecto como son los...",
+          "url": "https://example.com/3"
+        },
+        {
+          "name": "Electrificación del Tren Maya",
+          "cover": "/magazines-cover/elect-tren-maya.png",
+          "description": "La siguiente revista busca dejar constancia de las exigencias que el personal de la Comisión Federal de Electricidad es capaz de sortear con éxito. También es un agradecimiento a quienes participaron de primera mano en las obras para electrificar el Tren Maya, coordinadas por la Dirección Corporativa de Ingeniería y Proyectos de Infraestructura (DCIPI) y ejecutadas por la Residencia Regional de Construcción de Proyectos de Transmisión y Transformación Peninsular (RRCPTTPE), desde Mérida hasta Chetumal, en tiempo récord.",
+          "url": "https://example.com/4"
+        }
+      ]
+    },
+    {
+      "title_section": "Boletin IIE",
+      "items": [
+        {
+          "name": "Planeación de la expansión de los medios de generación y transmisión de energía eléctrica",
+          "cover": "/magazines-cover/IEE1.png",
+          "description": "La planeación de futuras instalaciones de generación y transmisión es una tarea compleja que se basa en el uso de herramientas matemáticas; en este articulo encontraremos parte del desarrollo de un paquete de sofware que permita la planeación simultánea y a largo plazo de la expansión de los sistemas de generación y transmisión.",
+          "url": "https://example.com/1"
+        },
+        {
+          "name": "Sistemas de enfriamiento en centrales eléctricas",
+          "cover": "/magazines-cover/enf-centrales-elec.png",
+          "description": "Los sistemas de enfriamiento inciden directamente en la eficiencia de las centrales termoeléctricas y por ello desempeñan un papel importante en la generación de energía eléctrica; en esta revista, encontramos que el Instituto de Investigaciones Eléctricas (IIE) realizó una investigación en esta área para establecer herramientas que ayuden a determinar cual es el mejor sistema de enfriamiento ...",
+          "url": "https://example.com/2"
+        },
+        {
+          "name": "Balanceo de máquinas rotatorias",
+          "cover": "/magazines-cover/balanceo-maq-rot.png",
+          "description": "Descripción detallada de cómo LAPEM realiza el balanceo de máquinas rotatorias. A través de un proceso de diagnóstico y corrección de vibraciones, se asegura de optimizar el rendimiento y la vida útil de las máquinas. Mediante la medición precisa de vibraciones y ajustes en las masas rotatorias, LAPEM minimiza los desbalances, garantizando así un funcionamiento eficiente y seguro de los equipos eléctricos.",
+          "url": "https://example.com/3"
+        },
+        {
+          "name": "Prueba de potencial aplicado en alta tensión en el laboratorio de Salazar",
+          "cover": "/magazines-cover/potencial-aplicado-salazar.png",
+          "description": "Información sobre la prueba de potencial aplicado en alta tensión realizada en el Laboratorio de Salazar. Esta prueba se lleva a cabo para verificar la capacidad de aislamiento de los equipos eléctricos sometidos a altos voltajes, simulando condiciones extremas de operación. El proceso consiste en aplicar una tensión elevada a los equipos y medir su comportamiento ...",
+          "url": "https://example.com/4"
+        },
+        {
+          "name": "Investigación y ahorro de energía en el sector eléctrico",
+          "cover": "/magazines-cover/inv-ahorr.png",
+          "description": "Estudios y proyectos enfocados en mejorar la eficiencia energética, reducir pérdidas y promover el uso sostenible de recursos en el sector eléctrico. Encontrarás innovaciones tecnológicas, casos de estudio y recomendaciones prácticas para optimizar el uso de energía.",
+          "url": "https://example.com/5"
+        }
+      ]
+    },
+    {
+      "title_section": "Boletin IEEE",
+      "items": [
+        {
+          "name": "Calidad de la energía eléctrica",
+          "cover": "/magazines-cover/calidad-en-el.png",
+          "description": "La planeación de futuras instalaciones de generación y transmisión es una tarea compleja que se basa en el uso de herramientas matemáticas; en este articulo encontraremos parte del desarrollo de un paquete de sofware que permita la planeación simultánea y a largo plazo de la expansión de los sistemas de generación y transmisión.",
+          "url": "https://example.com/1"
+        }
+      ]
+    },
+    {
+      "title_section": "TECNM",
+      "items": [
+        {
+          "name": "ÚnicoBC",
+          "cover": "/magazines-cover/TECNM1.jpg",
+          "description": "  El Instituto Tecnológico de Mexicali (ITM) presenta su revista Unico BC, siendo su publicación No. 74 donde se enfocan en la tecnología, cultura, liderazgo y temas de actualidad.",
+          "url": "https://example.com/1"
+        }
+      ]
+    },
+    {
+      "title_section": "Varias",
+      "items": [
+        {
+          "name": "El nuevo mercado eléctrico",
+          "cover": "/magazines-cover/enerhoy.png",
+          "description": "Analiza cómo el sector eléctrico se está adaptando para lograr una mayor rentabilidad y ofrecer tarifas más competitivas. Se exploran las estrategias empresariales, las reformas regulatorias y las innovaciones tecnológicas que están transformando el mercado eléctrico, así como sus implicaciones para consumidores y proveedores de energía",
+          "url": "https://example.com/1"
+        },
+        {
+          "name": "Energía Fotovoltaica",
+          "cover": "/magazines-cover/energia-fotovol.png",
+          "description": "Se centra en el desarrollo y las aplicaciones de la energía solar fotovoltaica. Explora las últimas innovaciones tecnológicas, los beneficios ambientales y económicos, y los desafíos asociados con la implementación de esta fuente de energía renovable. Además, se incluyen estudios de caso y ejemplos de proyectos exitosos que destacan el potencial y la viabilidad de la energía fotovoltaica...",
+          "url": "https://example.com/1"
+        },
+        {
+          "name": "Del Fuego a la Energía Nuclear",
+          "cover": "/magazines-cover/delguenuc.png",
+          "description": "Se centra en el desarrollo y las aplicaciones de la energía solar fotovoltaica. Explora las últimas innovaciones tecnológicas, los beneficios ambientales y económicos, y los desafíos asociados con la implementación de esta fuente de energía renovable. Además, se incluyen estudios de caso y ejemplos de proyectos exitosos que destacan el potencial y la viabilidad de la energía fotovoltaica...",
+          "url": "https://example.com/1"
+        },
+        {
+          "name": "Energía Renovable Y Nuevas Tecnologías",
+          "cover": "/magazines-cover/ener-renovab.png",
+          "description": "Se presenta un análisis de los principales parámetros de desarrollo de las energías renovables en pleno desarrollo hoy en día, así como también se presenta un reporte financiero de una de las empresas de tecnología solar que cotizan y que ha presentado módulos solares con capacidades versátiles instalados en numerosos países de Europa y América",
+          "url": "https://example.com/1"
+        },
+        {
+          "name": "El Poder del Sol",
+          "cover": "/magazines-cover/poderdelsol.png",
+          "description": "Muestra un catálogo donde encontraremos modelos, precios, características y marcas de distintos paneles solares, inversores, microinversores, accesorios, optimizadores, sistemas de monitoreo, cajas combinadoras, interruptores, sistemas de montaje y todo lo necesario o que podemos ocupar para la instalación de un arreglo fotovoltaico.",
+          "url": "https://example.com/1"
+        },
+        {
+          "name": "Laboratorio de pruebas de equipos y materiales de la CFE",
+          "cover": "/magazines-cover/materialequipos.png",
+          "description": "Brinda información técnica del Laboratorio de Pruebas de Equipos y Materiales (LAPEM) de CFE; los artículos publicados en esta revista reflejan opiniones de la exclusiva responsabilidad del autor y sólo pueden ser reproducidos contando con la autorización por escrito de LAPEM.",
+          "url": "https://example.com/1"
+        }
+      ]
+    }
+  ]
 }

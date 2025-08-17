@@ -9,7 +9,7 @@ const { magazines } = Astro.props
 
 
  {
-    magazines.magazines.map( (magazine)=> ( <CardSectionMagazineComponent client:load titleSection={magazine?.title_section} items={magazine?.items}  ></CardSectionMagazineComponent>) )
+    magazines.map( (magazine: any)=> ( <CardSectionMagazineComponent client:load titleSection={magazine?.title_section} items={magazine?.items}  ></CardSectionMagazineComponent>) )
  }
 
 

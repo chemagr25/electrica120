@@ -7,14 +7,19 @@ import Magazines from '@layouts/Magazines.astro';
 import magazines from '../content/magazines/magazines.json';
 
 const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const orderedMagazines = magazines.magazines.sort((a, b) => 
+  a.title_section.localeCompare(b.title_section, 'es', { sensitivity: 'base' })
+)
+
+console.log(orderedMagazines)
+
 ---
 
 <Base>
   <p class="my-2 text-3xl font-bold">Blog</p>
   <Posts posts={posts} />
   <HomePagination />
-
-  <p class="my-2 text-3xl font-bold">Revistas</p>
-
-  <Magazines magazines={magazines} />
+  <p class="my-8 text-3xl font-bold">Revistas</p>
+  <Magazines magazines={orderedMagazines} />
 </Base>
