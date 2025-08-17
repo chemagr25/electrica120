@@ -126,6 +126,29 @@
           "url": "https://example.com/1"
         }
       ]
+    },
+    {
+      "title_section": "Informes Residenciales (CFE, CENACE) / Tesis Profesional",
+      "items": [
+        {
+          "name": "Informe Residencial de la Ing. Liliana Gutiérrez Jiménez llevada a cabo en CFE.",
+          "cover": "/magazines-cover/inform-1.jpeg",
+          "description": "",
+          "url": "https://example.com/1"
+        },
+        {
+          "name": "Informe Residencial de la Ingeniero Ronny Xavier llevada a cabo en CENACE.",
+          "cover": "/magazines-cover/informe-2.jpeg",
+          "description": "",
+          "url": "https://example.com/1"
+        },
+        {
+          "name": "Pruebas en campo para planta fotovoltaica necesarias para la puesta en servicio de la planta en el Sistema Eléctrico Nacional de México.",
+          "cover": "/magazines-cover/tesisprof.jpeg",
+          "description": "Presentada por Oscar Medel Diaz. Exalumno del Instituto Tecnológico de Puebla.",
+          "url": "https://example.com/1"
+        }
+      ]
     }
   ]
 }

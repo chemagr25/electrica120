@@ -13,7 +13,7 @@ const props = defineProps({
       <div class="card-front" :style="{ backgroundImage: `url(${cover})` }"></div>
       <div class="card-back border">
         <p class="card-text bg-red-950">
-          {{ description || 'Este es el texto por detrás' }}
+          {{ description || '' }}
         </p>
       </div>
     </div>
@@ -21,6 +21,7 @@ const props = defineProps({
       <a :href="url" target="_blank">{{ name }}</a>
     </div>
   </div>
+  
 </template>
 
 <style scoped>

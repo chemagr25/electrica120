@@ -13,6 +13,7 @@ const props = defineProps({
     <h1 class="mt-3 text-2xl font-semibold leading-6 text-zinc-900 dark:text-white">
       {{ titleSection }}
     </h1>
+    
 
     <Slider :items="items">
       <CardItem
