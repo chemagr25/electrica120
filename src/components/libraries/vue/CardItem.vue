@@ -11,7 +11,7 @@ const props = defineProps({
   <div class="card-composition ">
     <div class="card-inner">
       <div class="card-front" :style="{ backgroundImage: `url(${cover})` }"></div>
-      <div class="card-back border">
+      <div class="card-back">
         <p class="card-text bg-red-950">
           {{ description || '' }}
         </p>

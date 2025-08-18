@@ -1,0 +1,68 @@
+---
+import { Image } from 'astro:assets';
+
+const data = [
+  {
+    title: 'Novedades',
+    cover:
+      '/banner-news.avif',
+    url: '/recomendaciones',
+  },
+
+  {
+    title: 'Programas',
+    cover: '/baner-software.jpg',
+    url: '/recomendaciones',
+  },
+  {
+    title: 'Recomendaciones',
+    cover:
+      'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVWDuVChrG2kUD_Mpai4oFJ2kEIcQQyM1K0RAHZbReGks4VjKu56pPC9Mq6M0FVvBuYzILPLku0wcT7B1BFcqVnrovnbPbyc_uMsYD-ac4ah56RejZWkl2opzykqNTlnbSSi-u88Cp__EbkzWDDGQp4QxDsucXocc-hSdTtVs69T3ZJXcs6sUhdJKfh1Pz/s288/recomend.png',
+    url: '/recomendaciones',
+  },
+    {
+    title: 'Materias',
+    cover: '/banner-signat.jpg',
+    url: '/recomendaciones',
+  },
+   {
+    title: 'Música para estudiar',
+    cover:
+      '/banner-music.jpg',
+    url: '/recomendaciones',
+  },
+];
+---
+
+<div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 md:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+  {
+    data.map((item) => (
+      <article class="flex w-full flex-col items-start">
+        <div class="mb-4 block overflow-hidden rounded-lg">
+          <a href={`${item.url}`}>
+            <figure class="h-auto w-auto object-cover md:h-[150px]">
+              <Image
+                class="transition duration-300 ease-in-out hover:scale-110"
+                src={item.cover}
+                alt="hola"
+                width={960}
+                height={480}
+                decoding="async"
+                loading="lazy"
+              />
+            </figure>
+          </a>
+        </div>
+        <div class="flex items-center gap-x-4 text-xs text-zinc-900 dark:text-white" />
+        <div class="relative">
+          <h2 class="mt-1 text-xl font-semibold leading-6 text-zinc-900 group-hover:text-zinc-600 dark:text-white">
+            <a href={`${item.url}`}>
+              <span class="absolute inset-0" />
+              {item.title}
+            </a>
+          </h2>
+        </div>
+      </article>
+    ))
+  }
+</div>

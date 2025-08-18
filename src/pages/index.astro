@@ -5,24 +5,23 @@ import Base from '@layouts/Base.astro';
 import Posts from '@layouts/Posts.astro';
 import Magazines from '@layouts/Magazines.astro';
 import magazines from '../content/magazines/magazines.json';
-
+import Extras from '@layouts/Extras.astro'
 const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const orderedMagazines = magazines.magazines.sort((a, b) => 
   a.title_section.localeCompare(b.title_section, 'es', { sensitivity: 'base' })
 )
 
-console.log(orderedMagazines)
 
 ---
 
 <Base>
-  <p class="my-2 text-3xl font-bold">Blog</p>
+  <p class="mb-6 text-3xl font-bold">Blog</p>
   <Posts posts={posts} />
   <HomePagination />
+  <p class="mb-6 mt-[60px] text-3xl font-bold">Recursos</p>
+  <Extras></Extras>
   <p class="my-8 text-3xl font-bold">Revistas</p>
   <Magazines magazines={orderedMagazines} />
-
-
 
 </Base>

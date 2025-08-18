@@ -12,7 +12,6 @@ import { Swiper, SwiperSlide } from 'swiper/vue';
 const modules = [Navigation, Pagination, Scrollbar, A11y, EffectFlip, EffectFade];
 
 const onSwiper = (swiper) => {
-  console.log(swiper);
 };
 const onSlideChange = () => {
 };
