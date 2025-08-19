@@ -52,7 +52,7 @@ const data = [
               <a
                 target="_blank"
                 href={item.url}
-                class="mb-2 me-2 inline-flex items-center rounded-lg bg-[#40B3E0] px-5 py-2.5 text-center text-sm font-medium text-white hover:text-white  focus:outline-none focus:ring-4 "
+                class="mb-2 me-2 inline-flex items-center rounded-lg bg-[#40B3E0] px-5 py-1 gap-2 text-center text-sm font-medium text-white hover:text-white  focus:outline-none focus:ring-4 "
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,9 +93,9 @@ const data = [
               <div class="w-full  flex flex-col gap-3">
                 {item.practicas ? <p style="margin: 0;">Práticas</p> :  ""}
                
-                <div class="flex gap-4 flex-wrap ">
+                <div class="flex gap-2 flex-wrap ">
                   {item.practicas?.map((pra) => (
-                    <a style="margin: 0;" href={pra}>
+                    <a target="_blank" style="margin: 0;" href={pra} class="hover:dark:bg-black/30 p-1  hover:bg-gray-500/20 rounded-sm">
                       <img style="width: 20px; height: 20px; margin: 0;" src="/drive-logo.png" alt="" />
                     </a>
                   ))}

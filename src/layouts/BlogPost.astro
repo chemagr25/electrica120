@@ -10,7 +10,7 @@ import { slugify } from '@utils/slug';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, heroImage, categories, tags } = Astro.props;
+const { title, description, pubDate, heroImage, categories } = Astro.props;
 ---
 
 <Base meta_title={title} description={description} image={heroImage} blogpost>
