@@ -1,0 +1,66 @@
+---
+import Base from '@layouts/Base.astro';
+import Page from '@layouts/Page.astro';
+
+const data = [
+  {
+    name: 'Anuncia Sener más de 624 mil mdp para impulsar expansión del sistema eléctrico',
+    cover: '/news-cover/news11.webp',
+    description:
+      'El Sol de México publicó la inversión que la Secretaria de Energía (SENER) contempla para incrementar, fortalecer y expandir el Sistema Eléctrico Nacional.',
+    url: 'https://oem.com.mx/elsoldemexico/finanzas/gobierno-federal-invertira-mas-de-620-mil-mdp-para-la-expansion-del-sistema-electrico-22623249',
+  },
+  {
+    name: 'Felicidades',
+    cover: '/news-cover/news1.jpg',
+    description:
+      'Los estudiantes del Servicio Social del área de Ing. Eléctrica. FELICIDADES al mestro Rubén Garcia Tlapaya, por sus menciones internacionales y por contribuir a nuestro acervo cognitivo ',
+    url: '/news-cover/news1.jpg',
+  },
+  {
+    name: 'Curso de seguridad para integrantes de servicio social de ingeniería eléctrica',
+    cover: '/news-cover/primeros-aux.png',
+    description:
+      ' El día 7 de Marzo de 2015 se llevo a cabo el primer curso de primeros auxilios, organizado por iniciativa de los propios estudiantes de Ingeniería Eléctrica del Instituto Tecnológico de Puebla, mismo que proporciono su apoyo para que fuera impartido dentro de la institución, siendo el ponente el T.A.M.P. Jesús Pani Muñoz, fue una gran experiencia sumamente positiva. Combinó teoría y práctica de manera efectiva, permitiendo que los estudiantes no solo comprendieran los aspectos fundamentales de los primeros auxilios, sino que también pudieran aplicar estos conocimientos en situaciones simuladas. Esta formación les brindó una habilidad vital que no solo puede salvar vidas en el ámbito profesional, sino también en su vida diaria. ',
+    url: '/post/curso-de-seguridad-para-integrantes-de-servicio-social-de-ingenieria-electrica/',
+  },
+  {
+    name: 'Biblioteca Digital',
+    cover: '/news-cover/fundacion.png',
+    description:
+      'La biblioteca digital es el espacio ideal que puede brindar materiales didácticos de una manera más cercana y conveniente que se adaptan al perfil de los usuarios. En el siguiente link, la Fundación Carlos Slim, nos ofrece más de 600 libros de diferentes géneros literarios, los cuales podrás disfrutar y que van desde clásicos hasta obras contemporáneas.',
+    url: 'https://pruebat.org/biblioteca-digital',
+  },
+];
+---
+
+<Base>
+  <Page title="Recomendaciones: Ex a Tec Puebla">
+    <div
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 md:max-w-3xl md:grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+    >
+      {
+        data.map((item) => (
+          <div class=" flex w-full justify-center">
+            <div class="max-w-sm rounded-lg border border-gray-200 bg-white shadow-sm dark:border-gray-700/0 dark:bg-zinc-900/95">
+              <div class="flex w-full items-center justify-center pt-3">
+                <img style="margin: 0;" class="img-s-cover h-40  w-1/2 rounded-lg" src={item.cover} alt="" />
+              </div>
+              <div class="p-5">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.name}</h5>
+                <p class="mb-3 line-clamp-5 font-normal text-gray-700 dark:text-gray-400">{item.description}</p>
+                <a
+                  target="_blank"
+                  href={item.url}
+                  class="mt-auto inline-flex items-center gap-2 rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:text-white dark:bg-blue-600 "
+                >
+                  Más información
+                </a>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </Page>
+</Base>
