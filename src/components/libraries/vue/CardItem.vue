@@ -17,7 +17,7 @@ const props = defineProps({
         </p>
       </div>
     </div>
-    <div class="mt-3 name text-xl font-semibold dark:text-white">
+    <div class="mt-3 name text-lg font-semibold dark:text-white">
       <a :href="url" target="_blank">{{ name }}</a>
     </div>
   </div>
