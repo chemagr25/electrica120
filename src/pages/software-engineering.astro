@@ -1,0 +1,74 @@
+---
+import Base from '@layouts/Base.astro';
+import Page from '@layouts/Page.astro';
+
+const data = [
+  {
+    cover: '/software-cover/dialux.png',
+    description:
+      'Software especializado en diseño de iluminación, ampliamente utilizado por arquitectos, diseñadores de iluminación e ingenieros eléctricos para crear y simular proyectos de iluminación en diversos tipos de espacios, tanto interiores como exteriores. Fue desarrollado en Alemania y es reconocido por su precisión y versatilidad en el diseño de proyectos lumínicos.',
+    url: 'https://drive.google.com/file/d/1NoQL4QvgXeHUOvOCGO9Zxl9YeH6sExdv/view',
+  },
+  {
+    cover: '/software-cover/proteus.jpg',
+    name: 'Proteus',
+    description:
+      'Software de simulación y diseño de circuitos electrónicos, ampliamente utilizado por ingenieros y diseñadores para la creación, simulación y prueba de circuitos electrónicos, especialmente en el desarrollo de sistemas embebidos y prototipos de circuitos electrónicos. Es conocido por su capacidad para simular tanto el hardware como el software de los circuitos, lo que lo convierte en una herramienta integral para el diseño y validación de proyectos electrónicos.',
+    url: 'https://drive.google.com/file/d/1Oyf_wVyoDSeLtbae-jJgXZ_4fCi7W4PA/view',
+  },
+  {
+    cover: '/software-cover/tia-portal.jpg',
+    name: 'TIA Portal V15',
+    description:
+      'Plataforma de software desarrollada por Siemens que integra herramientas para el diseño, programación, visualización y monitoreo de sistemas de automatización industrial. La versión STEP 7 Pro y WinCC Pro V15 ofrece capacidades avanzadas para el desarrollo de sistemas de control y monitoreo en el ámbito de la automatización y la fabricación.',
+    url: 'https://drive.google.com/file/d/1czn1n9N30k9FQV4Crnk-COva-8rkSlqU/view?usp=sharing',
+  },
+  {
+    cover: '/software-cover/sim-ekb-install-qthang.jpg',
+    name: 'Sim_EKB',
+    description:
+      'Herramienta utilizada principalmente en el ámbito de la automatización industrial para la gestión de licencias en software de Siemens, como el TIA Portal y otros programas de la serie SIMATIC. Esta utilidad se creó con el fin de simplificar la instalación de licencias necesarias para activar los distintos módulos de software de Siemens, como STEP 7, WinCC, PLCSIM, entre otros.',
+    url: 'https://drive.google.com/file/d/1czn1n9N30k9FQV4Crnk-COva-8rkSlqU/view?usp=sharing',
+  },
+    {
+    cover: '/software-cover/matlab.png',
+    name: 'Matlab',
+    description:
+      'Herramienta utilizada principalmente en el ámbito de la automatización industrial para la gestión de licencias en software de Siemens, como el TIA Portal y otros programas de la serie SIMATIC. Esta utilidad se creó con el fin de simplificar la instalación de licencias necesarias para activar los distintos módulos de software de Siemens, como STEP 7, WinCC, PLCSIM, entre otros.',
+    url: 'https://docs.google.com/document/d/19lRomXLpaavessA22ABd5OE4mA2DAWPz/edit?tab=t.0',
+  },
+];
+---
+
+<Base>
+  <Page title="Programas">
+    <div
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 md:max-w-3xl md:grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+    >
+      {
+        data.map((item) => (
+          <div class=" flex w-full justify-center">
+            <div class="max-w-sm rounded-lg border border-gray-200 bg-white shadow-sm dark:border-gray-700/0 dark:bg-zinc-900/95">
+              <div class="flex w-full items-center justify-center pt-3">
+                <img style="margin: 0;" class="img-s-cover h-40  w-1/2 rounded-lg" src={item.cover} alt="" />
+              </div>
+              <div class="p-5">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.name}</h5>
+                <p class="mb-3 line-clamp-5 font-normal text-gray-700 dark:text-gray-400">{item.description}</p>
+                <a
+                target="_blank"
+                  href={item.url}
+                  class="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:text-white dark:bg-blue-600 "
+                >
+                  Descargar
+                </a>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </Page>
+</Base>
+
+<style></style>

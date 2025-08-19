@@ -7,6 +7,18 @@
     {
       "name": "Nosotros",
       "url": "/about"
+    },
+    {
+      "name": "Programas",
+      "url": "/software-engineering"
+    },
+    {
+      "name": "Materias",
+      "url": "/subjects"
+    },
+    {
+      "name": "Recomendaciones",
+      "url": "/recommendations"
     }
   ]
 }
